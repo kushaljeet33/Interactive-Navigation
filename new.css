@@ -1,13 +1,10 @@
-/* General styles */
 body {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background: #f0f8ff; /* Light background color */
+    background: #f0f8ff; 
 }
-
-/* Header and Navigation */
 header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.2rem;
@@ -22,7 +19,7 @@ header {
 nav#navbar {
     padding: 10px 20px;
     color: #fff;
-    background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Gradient background */
+    background: linear-gradient(90deg, #ff7e5f, #feb47b); 
     transition: background 0.3s, box-shadow 0.3s;
 }
 
@@ -48,20 +45,18 @@ nav#navbar ul li a {
 }
 
 nav#navbar ul li a:hover {
-    background: #ff6f61; /* Hover background color */
+    background: #ff6f61; 
     color: #fff;
-    transform: scale(1.1); /* Slightly enlarge on hover */
+    transform: scale(1.1); 
 }
 
-/* Change navbar background and add shadow on scroll */
 nav#navbar.scrolled {
-    background: linear-gradient(90deg, #ff4b2b, #ff416c); /* Darker gradient on scroll */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    background: linear-gradient(90deg, #ff4b2b, #ff416c); 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Main section styles */
 main {
-    padding: 80px 20px 20px; /* Added padding to account for fixed header */
+    padding: 80px 20px 20px;
 }
 
 section {
@@ -72,7 +67,6 @@ h1, h2 {
     color: #333;
 }
 
-/* Specific section styles */
 #welcome, #about, #services, #contact {
     background: #fff;
     padding: 40px;
@@ -80,9 +74,8 @@ h1, h2 {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Welcome section */
 #welcome {
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Gradient background */
+    background: linear-gradient(135deg, #ff9a9e, #fad0c4); 
     text-align: center;
 }
 
@@ -93,7 +86,7 @@ h1, h2 {
 #welcome .info h2 {
     font-size: 1.8em;
     margin-bottom: 10px;
-    color: #ff6f61; /* Heading color */
+    color: #ff6f61; 
 }
 
 #welcome .info p {
@@ -108,7 +101,7 @@ h1, h2 {
     padding: 12px 25px;
     font-size: 1.1em;
     color: #fff;
-    background: #ff6f61; /* Button background color */
+    background: #ff6f61; 
     border: none;
     border-radius: 5px;
     text-decoration: none;
@@ -116,8 +109,8 @@ h1, h2 {
 }
 
 #welcome .button:hover {
-    background: #ff4b2b; /* Darker button color on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    background: #ff4b2b;
+    transform: scale(1.05);
 }
 
 /* About section */
@@ -141,7 +134,7 @@ h1, h2 {
     margin-right: 20px;
     width: 80px;
     height: 80px;
-    border: 2px solid #ff6f61; /* Border color for team images */
+    border: 2px solid #ff6f61; /
 }
 
 #about .team-member h3 {
@@ -154,9 +147,8 @@ h1, h2 {
     color: #666;
 }
 
-/* Services section */
 #services {
-    background: linear-gradient(135deg, #a2c2e3, #f5f7fa); /* Gradient background */
+    background: linear-gradient(135deg, #a2c2e3, #f5f7fa); 
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -179,7 +171,7 @@ h1, h2 {
 
 #services .service h2 {
     margin: 0;
-    color: #ff6f61; /* Service heading color */
+    color: #ff6f61; 
 }
 
 #services .service p {
@@ -187,7 +179,6 @@ h1, h2 {
     color: #666;
 }
 
-/* Contact section */
 #contact {
     background: #fff;
     padding: 40px;
@@ -203,7 +194,7 @@ h1, h2 {
 #contact .info h2 {
     font-size: 1.8em;
     margin-bottom: 10px;
-    color: #ff6f61; /* Heading color */
+    color: #ff6f61; 
 }
 
 #contact .info p {
@@ -244,7 +235,7 @@ h1, h2 {
     padding: 12px;
     font-size: 1.2em;
     color: #fff;
-    background: #ff6f61; /* Button background color */
+    background: #ff6f61; 
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -252,8 +243,8 @@ h1, h2 {
 }
 
 #contact form button:hover {
-    background: #ff4b2b; /* Darker button color on hover */
-    transform: scale(1.05); /* Slightly enlarge on hover */
+    background: #ff4b2b; 
+    transform: scale(1.05); 
 }
 h1 {
     justify-content: center;
